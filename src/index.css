@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#quantity {
+  width: 260px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#LoremWindow {
+  background-color: #FFFFFF;
+  color: #282C34;
+  font-size: 20px;
+  min-width: 40vw;
+  min-height: 20vh;
+  max-width: 80vw;
+  text-align: justify;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+#LoremIpsum {
+  margin-bottom: 10px;
+}
+
+.generate {
+  color: #282C34;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.marginBottom {
+  margin-bottom: 100px;
+}
