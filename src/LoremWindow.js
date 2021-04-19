@@ -8,16 +8,20 @@ function LoremWindow(props) {
   let quantity = props.quantity;
   let quantityArr = [];
   for (let x = 0; x < quantity; x++) {
-    quantityArr.push("a")
+    quantityArr.push(props.content[x])
   }
-  function renderTextContent() {
-      return <LoremIpsum />
+  function renderTextContent(element) {
+      return (
+        <p className="LoremIpsum">
+        {element}
+        </p>
+      )
   }
 
   let renderedText = (
     <div id="LoremWindow">
-      {quantityArr.map(() =>
-        renderTextContent())}
+      {quantityArr.map((element) =>
+        renderTextContent(element))}
     </div>
   );
 
