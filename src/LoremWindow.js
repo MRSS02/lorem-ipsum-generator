@@ -1,5 +1,4 @@
 import "./index.css"
-import LoremIpsum from "./LoremIpsum.js"
 import ReactDOM from 'react-dom';
 
 
